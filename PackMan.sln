@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAptClient", "WinAptTool\WinAptClient.csproj", "{9F5B1296-F23E-48E5-895A-61A2FA4DEB4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAptConfigTool", "WinAptConfigTool\WinAptConfigTool.csproj", "{4DBA2578-A4A2-4301-B40E-EE6791CE28DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAptParser", "WinAptParser\WinAptParser.csproj", "{13E2D300-2E01-48B3-AD48-D533A957CDEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAptCommon", "WinAptCommon\WinAptCommon.csproj", "{BADBD1FD-C3D7-4B3B-9773-8DF961C32D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoPlatformCommon", "ArduinoCommon\ArduinoPlatformCommon.csproj", "{DBB1494A-BCC7-4109-8639-2360C50F2310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13E2D300-2E01-48B3-AD48-D533A957CDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E2D300-2E01-48B3-AD48-D533A957CDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E2D300-2E01-48B3-AD48-D533A957CDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E2D300-2E01-48B3-AD48-D533A957CDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBA2578-A4A2-4301-B40E-EE6791CE28DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBA2578-A4A2-4301-B40E-EE6791CE28DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBA2578-A4A2-4301-B40E-EE6791CE28DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBA2578-A4A2-4301-B40E-EE6791CE28DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5B1296-F23E-48E5-895A-61A2FA4DEB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5B1296-F23E-48E5-895A-61A2FA4DEB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5B1296-F23E-48E5-895A-61A2FA4DEB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5B1296-F23E-48E5-895A-61A2FA4DEB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADBD1FD-C3D7-4B3B-9773-8DF961C32D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADBD1FD-C3D7-4B3B-9773-8DF961C32D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADBD1FD-C3D7-4B3B-9773-8DF961C32D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADBD1FD-C3D7-4B3B-9773-8DF961C32D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB1494A-BCC7-4109-8639-2360C50F2310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB1494A-BCC7-4109-8639-2360C50F2310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB1494A-BCC7-4109-8639-2360C50F2310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB1494A-BCC7-4109-8639-2360C50F2310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WinAptTool\WinAptClient.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
